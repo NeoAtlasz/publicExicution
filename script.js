@@ -11,8 +11,8 @@ entry.textContent = i;
 i++;
 list.appendChild(entry);
 entry.addEventListener('click', () => {
-    console.log('Item clicked', entryContent);
-    entry.removeChild();
+    console.log('Item clicked', entry.textContent);
+    entry.remove();
 
 });
 
